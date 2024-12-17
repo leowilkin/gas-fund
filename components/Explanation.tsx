@@ -33,7 +33,7 @@ export const Explanation = () => {
           <a href="https://hackclub.com" target="_blank">
             (Hack Club)
           </a>{" "}
-          want more people to be able to go to hackathons. This school year,
+          want more people to be able to go to hackathons - now in your country internationally! This school year,
           we'll fund the cost of gas for you (or a parent) to drive to{" "}
           <span className="font-bold">
             any hackathon listed on{" "}

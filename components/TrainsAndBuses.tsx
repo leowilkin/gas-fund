@@ -9,7 +9,9 @@ export const TrainsAndBuses = () => {
           <p className="mt-4 font-light text-white text-left text-lg md:text-xl  w-full mx-auto">
             If you are unable to drive to a hackathon, we can reimburse the
             equivalent amount of miles for a bus/train ticket at a flat rate of{" "}
-            <span className="underline">10 cents a mile!</span>
+            <span className="underline">10 cents a mile! </span>
+            <br/><br/>
+            Or, if you're outside the US or Canada, it's a flat rate of 70% - excluding railcards, or discounts.
           </p>
         </div>
       </div>

@@ -3,6 +3,7 @@ import { Explanation } from "@/components/Explanation";
 import Footer from "@/components/Footer";
 import { GetStarted } from "@/components/GetStarted";
 import { Hero } from "@/components/Hero";
+import { International } from "@/components/International";
 import { Nav } from "@/components/Nav";
 import { TrainTrack } from "@/components/TrainTrack";
 import { TrainsAndBuses } from "@/components/TrainsAndBuses";
@@ -23,12 +24,13 @@ export default function Home() {
         <Explanation />
 
         <img src="/roadbanner.svg" className="w-full my-[5vh]" />
+        <International />
+        <img src="/roadbanner.svg" className="w-full my-[5vh]" />
         <Works />
         <div className="mt-2">
           <TrainTrack />
         </div>
         <TrainsAndBuses />
-
         <div className="border-t-[3px] border-gray-100 mt-8 pt-4 border-dotted">
           <GetStarted />
         </div>
